@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qav7lcdZoIlqkM4EWF0M9ec5r7pI82PfMf9OVAHSXF8akYfACTPQFf0Jw1fUdNiczvDal2DUkw1/fFNxicrAaw==",
+  "success": true,
+  "projectFilePath": "D:\\schep\\Source\\Repos\\Example Projects\\ExampleProjects\\DotNetCoreDemoTest\\WpfApp1\\WpfApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\schep\\.nuget\\packages\\microsoft.ui.xaml\\2.4.3\\microsoft.ui.xaml.2.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}

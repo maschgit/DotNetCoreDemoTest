@@ -5,16 +5,16 @@ namespace ConsoleApp
 {
   class Program
   {
-    [DllImport(@"D:\schep\Source\Repos\Example Projects\ExampleProjects\PInvokeTest\PInvokeTest\x64\Debug\CPPDLL.dll")]
+    [DllImport(@"CPPDLL.dll")]
     private static extern IntPtr Create();
 
-    [DllImport(@"D:\schep\Source\Repos\Example Projects\ExampleProjects\PInvokeTest\PInvokeTest\x64\Debug\CPPDLL.dll")]
+    [DllImport(@"CPPDLL.dll")]
     private static extern double Add(IntPtr pointer, double a, double b);
 
-    [DllImport(@"D:\schep\Source\Repos\Example Projects\ExampleProjects\PInvokeTest\PInvokeTest\x64\Debug\CPPDLL.dll")]
+    [DllImport(@"CPPDLL.dll")]
     private static extern double Subtract(IntPtr pointer, double a, double b);
 
-    [DllImport(@"D:\schep\Source\Repos\Example Projects\ExampleProjects\PInvokeTest\PInvokeTest\x64\Debug\CPPDLL.dll")]
+    [DllImport(@"CPPDLL.dll")]
     private static extern double Delete(IntPtr pointer);
 
     static void Main(string[] args)
